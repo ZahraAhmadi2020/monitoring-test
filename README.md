@@ -1,3 +1,4 @@
+#DevOps 
 # Monitoring Test Project
 
 This project contains a Bash script (`monitoring.sh`) that monitors a process named `test.sh`, sends an HTTPS request to a monitoring server, and logs the process status and server response. It uses `systemd` to run the script automatically every minute.
