@@ -1,0 +1,10 @@
+[Unit]
+Description=Run monitoring script every minute
+
+[Timer]
+OnUnitActiveSec=1m
+OnBootSec=1m
+Persistent=true
+
+[Install]
+WantedBy=timers.target

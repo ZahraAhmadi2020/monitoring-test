@@ -1,0 +1,7 @@
+[Unit]
+Description=Monitoring script for test process
+
+[Service]
+ExecStart=/home/zhra/projects/monitoring/monitoring.sh
+User=zhra
+Restart=no
